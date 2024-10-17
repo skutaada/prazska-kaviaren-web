@@ -1,0 +1,18 @@
+.main {
+    font-family: 'Playfair Display';
+    line-height: 85px;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.subtext p {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.subtext {
+    width: 340px;
+    min-width: 120px;
+    flex-shrink: 1;
+}
