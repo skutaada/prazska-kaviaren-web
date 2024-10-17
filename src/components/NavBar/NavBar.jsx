@@ -1,5 +1,6 @@
 import { Link } from "wouter";
-import { IoLogoInstagram, IoMailOutline } from "react-icons/io5";
+import { IoLogoInstagram } from "react-icons/io5";
+import { CiFacebook } from "react-icons/ci";
 
 
 function NavBar() {
@@ -14,7 +15,7 @@ function NavBar() {
                 <Link href="">Chcem sa pridať</Link>
                 <div className="flex gap-x-5">
                     <a href="https://www.instagram.com/prazskakaviaren/" target="_blank" rel="noreferrer noopener"><IoLogoInstagram size={24}></IoLogoInstagram></a>
-                    <a href=""><IoMailOutline size={24}></IoMailOutline></a>
+                    <a href="https://www.facebook.com/prazskakaviaren/" target="_blank" rel="noreferrer noopener"><CiFacebook size={24}></CiFacebook></a>
                 </div>
             </div>
             <div className="flex flex-col items-center pt-8 lg:hidden">
