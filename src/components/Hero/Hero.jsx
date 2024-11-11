@@ -5,10 +5,10 @@ function Hero() {
   return (
     <div>
       <div className="mt-64 flex pt-24 pb-12 px-20 gap-10 justify-between">
-        <h1 className="main border-0 rounded-md backdrop-blur-lg p-6">
+        <h1 className="main border-0 rounded-md p-6">
           Nieje žiadna hanba, <br /> že ťa tvoje srdce volá.
         </h1>
-        <div className="flex flex-col gap-y-10 justify-end backdrop-blur-lg p-6 border-0 rounded-md subtext">
+        <div className="flex flex-col gap-y-10 justify-end p-6 border-0 rounded-md subtext">
           <GoArrowDownRight size={30}></GoArrowDownRight>
           <p>
             Pražská kaviareň je krajanský spolok združujúci Slovákov a Slovenky,
